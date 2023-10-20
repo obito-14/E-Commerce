@@ -1,0 +1,133 @@
+/* Navigation area */
+.SPPNavBackground {
+  display: flex;
+  padding: 10px;
+  background-color: rgb(224, 224, 224);
+}
+.SPPNavHome {
+  color: rgba(11, 218, 255, 0.903);
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 4px;
+}
+.SPPNavName {
+  color: black;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 4px;
+}
+/* Data Information Css */
+
+.SPPContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.SPPImage {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.SPPDataBox {
+  width: 50%;
+}
+.SPPDataName {
+  padding: 10px 0px;
+  font-weight: 400;
+}
+.SPPDataStars {
+  padding: 10px 0px;
+  font-weight: 400;
+}
+.SPPDataReviews {
+  padding: 10px 0px;
+  color: rgba(128, 128, 128, 0.875);
+}
+.SPPDataOffPrice {
+  padding: 10px 0px;
+}
+.SPPDataPrice {
+  padding: 10px 0px;
+  font-weight: 600;
+  color: rgb(48, 201, 239);
+}
+.SPPData {
+  width: 25rem;
+  color: rgba(128, 128, 128, 0.875);
+  padding: 10px 0px;
+}
+.SPPOffersBox {
+  cursor: pointer;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SPPOffersIcon {
+  text-align: center;
+  font-size: 20px;
+}
+.SPPOffersName {
+  padding: 10px 10px;
+}
+.SPPStock {
+  padding: 10px 0px;
+}
+.SPPId {
+  padding: 10px 0px;
+}
+.SPPBrand {
+  padding: 10px 0px;
+}
+.SPPSpan {
+  font-weight: 600;
+}
+@media all and (min-width: 0px) and (max-width: 899px) {
+  .SPPContainer {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 25rem;
+  }
+  .SPPImage {
+    position: absolute;
+    top: 5rem;
+  }
+  .SPPData {
+    width: 20rem;
+  }
+  .SPPOffersBox {
+    position: relative;
+    margin-left: 7rem;
+  }
+}
+@media all and (min-width: 0px) and (max-width: 468px) {
+  .SPPContainer {
+    margin-top: 30rem;
+  }
+  .SPPImage {
+    position: absolute;
+    top: 6rem;
+  }
+  .SPPDataBox {
+    width: 18rem;
+    margin-left: -5rem;
+  }
+  .SPPData {
+    width: 16rem;
+    margin-left: 0rem;
+  }
+  .SPPOffersBox {
+    position: relative;
+    margin-left: 10rem;
+  }
+  .SPPOffersBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+}

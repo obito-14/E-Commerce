@@ -1,0 +1,49 @@
+.ProductContainer {
+  display: block;
+  margin: 0px auto;
+}
+figure {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.ProductImg {
+  width: 16rem;
+  height: 12rem;
+}
+.ProductImg:hover {
+  transition: 0.5s ease-in-out;
+  opacity: 0.6;
+}
+figcaption {
+  position: relative;
+  top: -11rem;
+  left: 10rem;
+  color: rgb(155, 155, 255);
+  background-color: #fff;
+  text-align: center;
+  width: 6rem;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+figcaption:hover {
+  color: black;
+}
+.Description {
+  position: relative;
+  top: -2.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 16px;
+}
+.ProductName {
+  text-transform: capitalize;
+  color: black;
+}
+.ProductPrice {
+  text-transform: uppercase;
+  color: blue;
+}

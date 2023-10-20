@@ -1,0 +1,89 @@
+.FooterContainer {
+  background-color: rgb(30, 20, 57);
+  margin-top: 6rem;
+}
+.FooterContact {
+  position: relative;
+  top: -30px;
+  padding: 20px;
+  background-color: #fff;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  border-radius: 6px;
+  box-shadow: 0px 0px 2px 2px black;
+}
+.FooterBox1 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.footerCard {
+  display: block;
+  margin: 0px auto;
+  margin: 20px;
+  width: 11rem;
+}
+.FooterHeads {
+  margin: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.FooterInfo {
+  letter-spacing: 1.5px;
+}
+.FooterInput {
+  padding: 6px;
+  margin: 10px;
+}
+.FooterBtn {
+  display: block;
+  margin: 0px auto;
+  padding: 6px;
+  cursor: pointer;
+  background-color: rgb(105, 105, 231);
+  font-weight: 600;
+  color: #fff;
+  border-radius: 6px;
+  outline: none;
+}
+.FooterIconBox {
+  display: flex;
+}
+.FooterIcon {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #fff;
+  padding: 12px;
+  margin: 5px;
+  border-radius: 50%;
+  display: inline-block;
+}
+@media all and (min-width: 401px) and (max-width: 750px) {
+  .FooterBox1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .FooterInput {
+    width: 8rem;
+  }
+  .FooterBtn {
+    margin-left: 1.3rem;
+  }
+}
+@media all and (min-width: 0px) and (max-width: 400px) {
+  .FooterBox1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 3rem;
+  }
+  .FooterInput {
+    width: 10rem;
+  }
+  .FooterBtn {
+    margin-left: 2.5rem;
+  }
+}

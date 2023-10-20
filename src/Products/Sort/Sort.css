@@ -1,0 +1,47 @@
+.SortContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-left: 5px;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 6px;
+}
+.SortBox {
+  display: flex;
+  justify-content: center;
+}
+.SortView {
+  position: relative;
+  cursor: pointer;
+  padding: 3px;
+  margin: 6px 5px;
+}
+.ActiveSortView {
+  display: flex;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+.SortProductLength {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin-left: 4px;
+  margin-right: -4px;
+}
+.SortDropDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sort {
+  padding: 6px;
+}
+@media all and (min-width: 763px) and (max-width: 1089px) {
+  .SortContainer {
+    margin-right: 5px;
+  }
+}

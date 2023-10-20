@@ -1,0 +1,68 @@
+.NavContainer {
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+}
+.NavMainPages {
+  margin-top: 4rem;
+  display: block;
+  margin: 0px auto;
+  list-style-type: none;
+  background-color: #ffffffee;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+.NavCross {
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+}
+.NavPages {
+  padding: 10px 30px;
+  font-size: 25px;
+  color: #000;
+}
+.NavName {
+  color: #000;
+}
+a {
+  text-decoration: none;
+  /* color: #000; */
+}
+.NavLogIn {
+  width: 30%;
+  padding: 4px;
+  background-color: aqua;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0px auto;
+}
+.NavCart {
+  font-size: 25px;
+  color: #000;
+}
+.NavCartNum {
+  height: 17px;
+  width: 17px;
+  font-size: 17px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: aqua;
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: -43px;
+  left: 13px;
+}
+@media all and (min-width: 740px) and (max-width: 1200px) {
+  .NavMainPages {
+    display: none;
+  }
+}

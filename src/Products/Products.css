@@ -1,0 +1,21 @@
+.productsContainer {
+}
+.productFilterSection {
+}
+.productBox {
+}
+.productsSort {
+}
+.PProductList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media all and (min-width: 0px) and (max-width: 825px) {
+  .productsContainer {
+    display: block;
+  }
+  .PProductList {
+    margin-left: 0.5rem;
+  }
+}

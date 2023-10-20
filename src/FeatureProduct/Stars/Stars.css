@@ -1,0 +1,15 @@
+.Star {
+  color: gold;
+  border: 5px gold;
+  font-size: 18px;
+}
+.OutlineStar {
+  color: gold;
+  border: 5px gold;
+  font-size: 18px;
+}
+.Reviews {
+  margin: 0px 10px;
+  position: relative;
+  margin-top: -10px;
+}

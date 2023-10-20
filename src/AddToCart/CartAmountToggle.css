@@ -1,0 +1,16 @@
+.AmountContainer {
+  display: flex;
+  margin: 10px;
+}
+.Amount {
+  font-size: 19px;
+  margin: 4px;
+}
+.AmountIcons {
+  margin: 4px 6px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: #fff;
+  cursor: pointer;
+}

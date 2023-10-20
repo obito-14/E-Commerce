@@ -1,0 +1,96 @@
+.HeroContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0rem 1rem;
+  margin: 0px auto;
+  margin-top: 2rem;
+  padding-top: 3rem;
+  width: 90%;
+  height: 80vh;
+  border-radius: 8px;
+  background-color: #9fd2eb;
+}
+.HeroDescription {
+  position: relative;
+  padding: 30px;
+  width: 30rem;
+}
+.heroP1 {
+  font-size: 20px;
+  color: #7c7878;
+  padding: 10px;
+  font-weight: 600;
+}
+.HeroMainHead {
+  padding: 10px;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.HeroP2 {
+  width: 70%;
+  font-weight: 600;
+  padding: 10px;
+  color: #7c7878;
+}
+.HeroShop {
+  padding: 10px 14px;
+  background-color: aquamarine;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+  box-shadow: 2px 2px 10px 7px black;
+  margin: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.HeroShop:hover {
+  background-color: black;
+  color: #fff;
+}
+.HeroImgSection {
+  margin-top: 3.5rem;
+}
+.HeroImgBack {
+  position: relative;
+  top: -2rem;
+  right: -10.5rem;
+  background-color: aqua;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 4px;
+}
+.HeroMainImg {
+  position: relative;
+  top: -15rem;
+  left: -2rem;
+  width: 25rem;
+  border-radius: 8px;
+  z-index: 3;
+}
+@media all and (min-width: 0px) and (max-width: 799px) {
+  .HeroContainer {
+    flex-wrap: wrap;
+    margin: 20px auto;
+    height: 115vh;
+    padding: 0px;
+    border-radius: 8px;
+  }
+  .HeroDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .HeroImgBack {
+    height: 13rem;
+    width: 20rem;
+    padding: 10px;
+    right: 0rem;
+    top: -14px;
+  }
+  .HeroMainImg {
+    width: 16rem;
+    top: -12.5rem;
+    left: 30px;
+  }
+}

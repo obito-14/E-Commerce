@@ -1,0 +1,136 @@
+/* Profile */
+.cartProfileBox {
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.cartProfile {
+  width: 5rem;
+  border-radius: 50%;
+}
+.cartProfileName {
+  font-weight: 600;
+  margin-left: -1rem;
+  margin-top: 1rem;
+}
+/* Items Css */
+.cartBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.hr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  border: 1.5px solid gray;
+  width: 70%;
+}
+.cartHead1 {
+  font-weight: 600;
+  margin-left: 3rem;
+}
+.cartHead2 {
+  font-weight: 600;
+  margin-left: 3rem;
+}
+.cartHead3 {
+  font-weight: 600;
+}
+.cartHead4 {
+  font-weight: 600;
+}
+.cartHead5 {
+  font-weight: 600;
+}
+
+.cartSubBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  margin: 10px 20px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+.NoCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+.BtnContinue {
+  padding: 10px;
+  margin: 10px;
+  font-weight: 600;
+  background-color: rgb(112, 112, 238);
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.BtnClearCart {
+  padding: 10px;
+  margin: 10px;
+  font-weight: 600;
+  background-color: coral;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.cartBox2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 9rem;
+}
+.order-total--subData1 {
+  display: flex;
+}
+.order-total--amount {
+  width: 100%;
+  margin: 4.8rem 0;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.order-total--subdata {
+  font-weight: 600;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 5px 10px 18px black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  padding: 3.2rem;
+  margin-right: 5rem;
+}
+.hr {
+  width: 100%;
+}
+.CartPrice {
+  color: rgb(83, 83, 255);
+  margin-left: 5px;
+}
+@media all and (min-width: 0px) and (max-width: 745px) {
+  .cartHead2,
+  .cartHead4 {
+    display: none;
+  }
+  .cartHead1 {
+    margin-left: -2rem;
+  }
+  .cartHead3 {
+    margin-left: 7rem;
+  }
+  .cartHead5 {
+    margin-left: 1rem;
+  }
+}

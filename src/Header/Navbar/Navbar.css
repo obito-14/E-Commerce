@@ -1,0 +1,80 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  align-items: center;
+}
+.logoImgBox {
+  padding: 5px;
+}
+.logoImg {
+  width: 5rem;
+  border-radius: 8px;
+}
+.navbarPages {
+  display: flex;
+  list-style-type: none;
+}
+.pages {
+  padding: 8px 30px;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.logIn {
+  padding: 4px 8px;
+  background-color: aqua;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cart {
+  font-size: 25px;
+}
+.cartNum {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: aqua;
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: -38px;
+  left: 13px;
+}
+.NavbarMenu {
+  display: none;
+  color: #fff;
+  margin-right: 2rem;
+  font-size: 25px;
+}
+.NavbarProfileBox {
+  display: flex;
+}
+.NavbarProfile {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.NavbarProfileName {
+  color: #fff;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+}
+@media all and (min-width: 0px) and (max-width: 739px) {
+  .navbarPages {
+    display: none;
+  }
+  .NavbarMenu {
+    display: block;
+  }
+}

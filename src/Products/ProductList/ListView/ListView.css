@@ -1,0 +1,61 @@
+.ListViewContainer {
+  width: 100%;
+  display: flex;
+}
+.ListViewImgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border-radius: 8px;
+  background: #d5d1d1fd;
+  margin: 5px 10px;
+  cursor: pointer;
+}
+.LVMainImg {
+  width: 20rem;
+  border-radius: 8px;
+}
+.LVMainImg:hover {
+  opacity: 0.5;
+  transition: 0.9s ease-in-out;
+}
+.LVBox2 {
+  padding: 10px;
+}
+.LVName {
+  text-transform: capitalize;
+  margin: 5px;
+}
+.LVPrice {
+  margin: 5px;
+  color: rgb(47, 47, 209);
+  font-weight: 800;
+}
+.LVDescription {
+  font-weight: 600;
+  color: gray;
+}
+.LVBtn {
+  padding: 8px 12px;
+  margin: 10px 5px;
+  border: 2px solid rgb(47, 47, 209);
+  background-color: #fff;
+  border-radius: 4px;
+  color: rgb(47, 47, 209);
+  cursor: pointer;
+}
+.LVBtn:hover {
+  background-color: rgb(47, 47, 209);
+  color: #fff;
+  transition: 0.9s ease-in-out;
+}
+@media all and (min-width: 0px) and (max-width: 600px) {
+  .ListViewContainer {
+    display: block;
+  }
+  .LVMainImg {
+    width: 16rem;
+    border-radius: 6px;
+  }
+}

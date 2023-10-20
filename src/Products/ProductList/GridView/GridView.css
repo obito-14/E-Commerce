@@ -1,0 +1,24 @@
+.GridViewContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 40%;
+  position: relative;
+}
+@media all and (min-width: 763px) and (max-width: 1089px) {
+  .GridViewContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media all and (min-width: 0px) and (max-width: 762px) {
+  .GridViewContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+}

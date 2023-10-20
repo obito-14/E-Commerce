@@ -1,0 +1,58 @@
+.MyImageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5rem;
+}
+.MISideBarImg {
+  padding-right: 5rem;
+}
+.MyImages {
+  width: 5rem;
+  cursor: pointer;
+}
+.MIMainImg {
+  position: relative;
+  margin-left: -3rem;
+}
+.MyMainImage {
+  cursor: pointer;
+  width: 25rem;
+}
+@media all and (min-width: 0px) and (max-width: 899px) {
+  .MyImageContainer {
+    margin-top: 11rem;
+  }
+  .MISideBarImg {
+    width: 10rem;
+    display: grid;
+    grid-template-columns: 4fr;
+  }
+}
+.MyMainImage {
+  width: 20rem;
+}
+@media all and (min-width: 0px) and (max-width: 468px) {
+  .MyImageContainer {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .MyImageContainerBox {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+  }
+  .MISideBarImg {
+    padding: 0rem 3rem;
+  }
+  .MyImages {
+    width: 8rem;
+    height: 5rem;
+  }
+  .MIMainImg {
+    margin-left: 3.7rem;
+  }
+}

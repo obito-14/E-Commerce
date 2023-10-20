@@ -1,0 +1,30 @@
+.trustedContainer {
+  text-align: center;
+  padding: 20px;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  font-weight: 600;
+}
+.trustedBox {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.trustedCard {
+  display: block;
+  margin: 0px auto;
+  padding: 5px;
+  margin: 8px 4px;
+  background-color: #d5d4d4;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+.trustedImg {
+  width: 6rem;
+}
+@media all and (min-width: 0px) and (max-width: 700px) {
+  .trustedBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

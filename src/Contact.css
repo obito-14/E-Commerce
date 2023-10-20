@@ -1,0 +1,41 @@
+.ContactContainer {
+  margin: 40px;
+}
+.ContactHead {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  padding: 15px;
+}
+.ContactBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.Input1 {
+  display: block;
+  margin: 5px auto;
+  width: 30%;
+  padding: 10px;
+  border-radius: 6px;
+}
+.ContactArea {
+  display: block;
+  margin: 5px auto;
+  width: 40%;
+  resize: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+.ContactBtn {
+  display: block;
+  margin: 10px auto;
+  padding: 8px 0px;
+  width: 10%;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgb(105, 105, 231);
+}
